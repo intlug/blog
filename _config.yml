@@ -19,16 +19,61 @@
 # in the templates via {{ site.myvariable }}.
 
 title: INTLUG - Survey Results and comments
-email: peter@peterlarsen.org
 description: >- # this means to ignore newlines until "baseurl:"
   INTLUG is an attempt to make a Linux User Group that isn't constrained to 
   geographical boarders. It's a forum for anything Linux
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://intlug.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  bit4man
+
+# todo, replace logos
+logo: "/assets/img/branding/intlug-banner.png"
+logo-icon: "/assets/img/branding/intlug-logo.png"
+logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+
+# Disable newsletter
+mailchimp: null
+
+
+night_mode: "auto" 
+logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
+highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
+
+# Author settings
+author: Peter Larsen # add your name
+author-pic: Peter.png
+about-author: Open Source fanboy, working with Linux since the mid 1990s. Have the pleasure of working with Open Source in my dayjob; covering infrastructure/Linux as well as development platforms. From containers, kubernetes to storage and networking.
+email: peter@peterlarsen.org
+github:  bit4man
+website: "https://intlug.github.io"
+
+# Paginate
+paginate: 6
+paginate_path: 'page:num'
+words_per_minute: 200
+
+extensions:
+  mermaid_enable: true
 
 # Build settings
-theme: minima
+markdown: kramdown
+mathjax: true
+highlighter: rouge
+compress_html:
+  clippings: all
+  comments: all
+  startings: [html, head, body]
+
+# Outputting
+timezone: US/Eastern
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+sass:
+  style: compressed
+
+
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -37,22 +82,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]

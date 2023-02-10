@@ -1,8 +1,16 @@
 ---
 layout: post
+show_date: true
+read_time: true
+img: posts/20230209/postimage.png
 title:  "Our Survey Results"
 date:   2023-02-09 17:39:14 -0500
+description: Covering the survey result for the first meeting
+author: Peter Larsen
 categories: about content
+tags: [about, lug, future topics]
+toc: yes
+github: intlug/blog
 ---
 During 2021 and 2022, COVID caused a new experiment to be started - a social call where the subjects where free, very informal and even though Linux wasn't the required topic (odd for a Linux Users Group I know) the talks often ended up covering lots of different aspects related to Linux and open source.
 
@@ -10,13 +18,13 @@ An unexpected result of 2 years of monthly online meetings was finding lots of p
 
 The Northern Virginia Users Group that hosted the meeting was originally setup for in-person meetings and to my knowledge that's still it's goal, although for more than a year there has been no meetings scheduled despite having no lockdown requirements and venues are again open. To avoid conflicts, we'll start coordinating the international lug here - but if you live in an area served by a local users group this is not meant to replace going/participating in those calls.
 
-## Survey ##
+# Survey
 
 In early January a 12 question basic survey was created and shared with the active participants of the old social calls. Here are the raw results of the survey - see below for commentary and suggestions. The survey is anonymous.
 
 In total there are 12 respondants - and the author did not respond to the survey. 
 
-### What should INTLUG cover? ###
+## What should INTLUG cover?
 
 This provided a list of 4 pre selected options and an option to add more options:
 * Like the Social Call - chit-chat about everything
@@ -26,7 +34,7 @@ This provided a list of 4 pre selected options and an option to add more options
 
 ![What should INTLUG Cover]({{ site.baseurl }}/images/result-what_should_intlug_cover.png)
 
-### How Often ###
+## How Often
 
 This question is devided into 4 subsections:
 * [Frequency](#frequency)
@@ -36,7 +44,7 @@ This question is devided into 4 subsections:
 
 Due to an unfortunate data-entry error, the same frequency question was asked twice. We'll just cover the first one here.
 
-#### Frequency ####
+### Frequency
 A choice between:
 * Weekly
 * Bi-Weekly
@@ -45,12 +53,12 @@ A choice between:
 
 ![How Often]({{ site.baseurl }}/images/result-how_often_frequency.png)
 
-#### Day of week ####
+### Day of week
 A choise of Monday->Sunday. Only one choice allowed.
 
 ![Day Of Week]({{ site.baseurl }}/images/result-how_often_day_of_week.png)
 
-#### Time of meeting ####
+### Time of meeting
 
 The following options were provided:
 
@@ -61,12 +69,12 @@ Respondants could add their own "other" option too.
 
 ![Time of meeting]({{ site.baseurl}}/images/result-how_often_time.png)
 
-#### Length ####
+### Length
 3 options were provided in hours: 1, 2 or 3.
 
 ![Time of meeting]({{ site.baseurl}}/images/result-how_often_length.png)
 
-### Content ###
+## Content
 This was the first of several questions about content.  This is free-text and no suggested options. 
 
 10 Respondents
@@ -85,7 +93,7 @@ This was the first of several questions about content.  This is free-text and no
 |learning how to build and make programs in Linux for us that only ever compiled on windows|
 |As mentioned above: Specific and targeted migrations from Windows-only solutions to FOSS alternatives (e.g. total migration from Microsoft AD to a Samba-based solution); where FOSS alternatives may not yet exist or an organization refuses to give up their Windows-only software, we could focus on making that run under Wine/Bottles/Crossover; networking in all aspects - running a routing protocol, bonding Ethernet interfaces, differences between tap/tun/loop interfaces and what their functions are, etc.|
 
-### How to help attendees when remote ###
+## How to help attendees when remote
 
 Some activities are not easily done virtual - such as assisting with a concrete problem. What suggestions do you have to allow the group to help members with issues when lacking physical access?  Again, no suggestions, just freetext.
 
@@ -103,7 +111,7 @@ Some activities are not easily done virtual - such as assisting with a concrete 
 |Depending on the exact nature of the problem, i.e. whether network connectivity even exists, and the relative skill of the user, there may be several ways to accomplish this. For the lowest common denominator, though, i.e. rudimentary skilled user and no network access, I feel like photos of the screen (via phone cam) are going to be the most universally available way to do this, said photos then shared with an opt-in group email distro. Perhaps a small document write-up could be provided with the best way to accomplish that, e.g. reminder to use landscape mode, warning to close any password managers or personal info showing, how to get things in focus on Android/iPhone, etc. Beyond these basics, I'd also include instructions for how to grab information that will be of use to the support team - how to open a console, commands to run, how to roll the output into a single text file and/or compressed file, and so forth.|
 |Another possibility is to boot from a live image that contains remote access software, mount the local drive(s), and pull the logs and .conf files that way. Maybe even chroot into the local instance...?|
 
-### Proposed name ###
+## Proposed name
 Open Answer - INTLUG which was the name used to create the meetup page and this survey is a working title only.
 
 6 Respondents
@@ -117,12 +125,12 @@ Open Answer - INTLUG which was the name used to create the meetup page and this 
 |INT Linux Users Group (spelled out).|
 |Greater Universal LUG? GULUG? :D|
 
-### Should presentations be recorded and published? ###
+## Should presentations be recorded and published?
 Yes/No answer.
 
 ![Record Sessions]({{ site.baseurl }}/images/result-record-sessions.png)
 
-### Topics of interest ###
+## Topics of interest
 We ask respondents what topics interest them - what would want them to join a formal presentation. 
 8 Repondants - all freetext, no suggestions.
 
@@ -137,7 +145,7 @@ We ask respondents what topics interest them - what would want them to join a fo
 |compliing. understanding linux architecture, logs,|
 |Cybersecurity and everything that entails: firewalls (network and host based), IDS/IPS, certificates and why they matter, VPNs, disk encryption.|
 
-### Topics offered as speaker ###
+## Topics offered as speaker
 This last question tries to gauage what knowledge and interest the group would have early on. For volunteer groups, those who volunteer set the agenda.
 
 4 Respondents
@@ -149,7 +157,7 @@ This last question tries to gauage what knowledge and interest the group would h
 |I want to talk about things that would help new users over their hurdles and help these users orient themselves in productive directions of learning.  That's pretty vague... I'm still thinking about it.|
 |Best tactics for approaching a company, enterprise, or customer about a full migration away from proprietary software. Everything from how would you sell the idea to someone who's only ever worked with Windows and Microsoft Office, to how you would implement such a radical switch. What distro would you use for the desktops vs. servers? How would you manage them, both in terms of software patching, and also enforcing policies? What software would you recommend to accomplish a given task? How would you approach any proprietary, custom, or just plain ancient software they require?|
 
-## Preliminary comments ##
+# Preliminary comments
 
 Given this is a new group with less than 100 people signed up for now, the number of responses is very high and suggests there would be a foundation to try this out.
 
@@ -159,7 +167,7 @@ The kind of meetings wanted seems to clearly favor the traditonal presentation t
 
 As for content we have relative beginner topics and advanced ones. A wide spectrum which is expected given how wide the net is cast. I think going forward it will be important to keep the talks mixed, so they're not all for beginners, and not all advanced. A potential way around this is to have more than one talk at each meeting (like lightning talks) which doesn't require as much preparation time to do. Regardless, this would be fluent as the group grows and would depend on who attends and who wants to speak.
 
-# Final notes #
+# Final notes
 This is very new - nothing is set in stone. This site is created using GitHub Pages and Jekyll and anyone who wants to can contribute - each memeber can even have their own static web-site using simple markup language.  If you're interested in helping, that would REALLY help - let me know and I can add you. For now, you see the source and content of the github, go to https://github.com/intlug
 
 You can easily be added to this organization as a contributor which will allow you to create repositories and help out.  This site would be used to hold records of meetings and our ideas going forward, giving new potential members a forum. A discussion group was added to the github too allowing for in-writing discussions. Other options can absolutely be added/used - these are not meant as "must haves" just as examples.
