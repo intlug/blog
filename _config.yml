@@ -34,6 +34,8 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
