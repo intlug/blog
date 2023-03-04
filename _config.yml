@@ -35,7 +35,7 @@ mailchimp: null
 
 
 night_mode: "auto" 
-# logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
+logo-dark: "/assets/img/branding/intlug-logo.png"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
