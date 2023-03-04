@@ -39,12 +39,14 @@ logo-dark: "/assets/img/branding/intlug-banner.png"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
-author: Peter Larsen # add your name
+author: Peter Larsen
 author-pic: Peter.png
 about-author: Open Source fanboy, working with Linux since the mid 1990s. Have the pleasure of working with Open Source in my dayjob; covering infrastructure/Linux as well as development platforms. From containers, kubernetes to storage and networking.
 email: peter@peterlarsen.org
 github:  bit4man
 website: "https://intlug.github.io"
+
+analytics: G-3JZL92YB3C
 
 # Paginate
 paginate: 6
