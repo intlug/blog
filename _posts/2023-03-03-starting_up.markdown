@@ -20,7 +20,7 @@ After a very well attended and good initial meeting in early February, we wanted
 * Name of the group is INTLUG
 * We have recurring meetings every 2 weeks, switching between a social call and a "topic/presenter" call. 
 * Meeting day is Saturday, and time is noon Eastern. We would like to limit the calls to 1 hour particular when we have a presenter.
-* We had several topics suggested - see (Meetup)[https://meetup.com/intlug]. We need more, but this is a great beginning.
+* We had several topics suggested - see [Meetup](https://meetup.com/intlug). We need more, but this is a great beginning.
 
 *Our First Meeting*: March 4th! 
 
