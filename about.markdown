@@ -8,4 +8,4 @@ This is the new INTLUG's survey response page trying to define the future of INT
 
 Our "website" is https://intlug.github.io/survey
 
-Sign up for meetings on: https://www.meetup.com/international-linux-users-group/
+Sign up for meetings on: https://heylo.group/international-linux-users-group
