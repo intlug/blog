@@ -7,7 +7,7 @@ title:  "Moving day!"
 description: INTLUG moves to heylo.co
 author: Peter Larsen
 categories: logistics
-tags: [about, lug, linux, fun]
+tags: [about, lug, logistics]
 toc: yes
 github: intlug/blog
 ---
