@@ -2,7 +2,7 @@
 layout: post
 show_date: true
 read_time: true
-img: posts/stock/post-banner.jpg
+img: posts/20240802/moving-day-min.jpg
 title:  "Moving day!"
 description: INTLUG moves to heylo.co
 author: Peter Larsen
